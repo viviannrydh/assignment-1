@@ -1,0 +1,109 @@
+
+ * {
+    box-sizing: border-box;
+  }
+
+body {
+  
+    margin-top:0;
+    margin-left:10px;
+    margin-right:10px;
+    padding:20px;
+    border: 2px solid black;
+    font-size:20px;
+  }
+
+  img{
+      width:550x;
+      height: 600px;
+      margin-left:150px;
+  }
+  p{
+      color: darkblue;
+      font-size: 20px;
+  }
+
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:lightcoral;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size:20px;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+  
+ 
+  
+  /* Style inputs */
+  input[type=text], input[type=number],select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  footer{
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:gray;
+    color: white;
+    text-align: center;
+    font-size:15px;
+    line-height: 70%;
+  }

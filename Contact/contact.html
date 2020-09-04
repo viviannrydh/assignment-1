@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='normalize.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='contact.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#news">About me</a></li>
+            <li><a href="#contact">Project</a></li>
+            <li><a href="#about">Contact</a></li>
+            </a></li>
+        </ul>
+    </header>
+    <hr> 
+
+    <main>
+
+        <div class="container">
+            <div style="text-align:center">
+                <h1>Contact Me</h1>
+                <p>Anything in your mind that you want to discuss or need help with, just leave us a message :) :</p>
+            </div>
+            <div class="row">
+                <div class="column">
+                    <img src="map.jpg">
+                </div>
+                <div class="column">
+                    <form action="/action_page.php">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your name..">
+                        <label for="phone">Phone Number:</label>
+                        <input type="number" id="lname" name="phone" placeholder="123.....">
+                        <label for="Account">Discord Account:</label>
+                        <input type="text" id="Account" name="Account">
+                        <label for="Email">Email</label>
+                        <input type="text" id="Email" name="email" placeholder="email">
+                        <label for="contactoptions">How do you want to be contacted:</label>
+                        <select id="contactoptions" name="contactoptions">
+                        <option value="email">Email</option>
+                        <option value="tel">Phone</option>
+                        <option value="chat">Discord</option>
+                        </select>
+                        <label for="subject">Message:</label>
+                        <textarea id="subject" name="subject" placeholder="What is on your mind ? It will be so nice if you could share with me......" style="height:170px"></textarea>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <address>Blåmesvägen 23, 18647, Vallentuna</address>
+        <p>Tel:0763969361</p>
+        <email>Email:rydh.vivian@gmail.com</email>
+    </footer>
+</body>
+</html>
