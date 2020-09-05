@@ -1,5 +1,5 @@
 
- * {
+* {
     box-sizing: border-box;
   }
 
@@ -11,6 +11,15 @@ body {
     padding:20px;
     border: 2px solid black;
     font-size:20px;
+  }
+
+  h1{
+    color:rgb(32, 48, 65);
+
+  }
+
+  h4{
+    color:rgb(50, 50, 97);
   }
 
   img{
@@ -49,10 +58,6 @@ body {
     background-color: #111;
   }
 
-  
- 
-  
-  /* Style inputs */
   input[type=text], input[type=number],select, textarea {
     width: 100%;
     padding: 12px;
@@ -74,14 +79,14 @@ body {
     background-color: #45a049;
   }
   
-  /* Style the container/contact section */
+ 
   .container {
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 10px;
   }
   
-  /* Create two columns that float next to eachother */
+  
   .column {
     float: left;
     width: 50%;
@@ -89,7 +94,7 @@ body {
     padding: 20px;
   }
   
-  /* Clear floats after the columns */
+
   .row:after {
     content: "";
     display: table;
